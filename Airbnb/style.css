@@ -1,0 +1,19 @@
+button{
+    /* 버든 기본설정값 제거 */
+    background-color: transparent; /*배경 투명하게*/
+    border : none;
+}
+
+#logo{
+    width: 300px;
+    height: 64px;
+    cursor: pointer;
+}
+#search-wrap{
+    background-color: #ff385c;
+    border-radius: ;
+}
+
+#search{
+    width : 12px;   
+}
