@@ -1,46 +1,55 @@
-    button{
-        /* 버든 기본설정값 제거 */
-        background-color: transparent; /*배경 투명하게*/
-        border : none;
-    }
+ button {
+     /* 버든 기본설정값 제거 */
+     background-color: transparent;
+     /*배경 투명하게*/
+     border: none;
+ }
 
-    header{
-        display : flex;
-    }
+ header {
+     display: flex;
+ }
 
-    #logo{
-        height: 64px;
-        cursor: pointer;
-    }
+ #logo {
+     height: 64px;
+     cursor: pointer;
+ }
 
-    #little-search{
-        display: flex;
-        align-items: center;
-        border: 1px solid #dddddd;
-        border-radius: 40%;
-    }
+ #little-search {
+     display: flex;
+     padding : 0 8px;
+     justify-content: center;;
+     align-items: center;
+     width: fit-content;
+     height: 48px;
+     border: 1px solid #dddddd;
+     border-radius: 40px;
+     box-sizing : border-box;
+     min-width: 364px;
+ }
 
-    .little-search-btn{
-        padding: 0 16px;
-    }
+ .little-search-btn {
+     padding : 0 16px;
+     white-space : nowrap; /*텍스트 줄넘김 방지*/
+     width: fit-content;
+ }
 
-    .divder{
-        flex-basis: 1px;
-        height: 24px;
-        background-color: #dddddd;
-    }
+ .divder {
+     flex-basis: 1px;
+     height: 24px;
+     background-color: #dddddd;
+ }
 
-    #Magnifying_glass_wrap{
-        display : flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #ff385C;
-        flex-basis : 32px;
-        height : 32px;
-        flex-shrink : 0;
-        border-radius: 50%;
-    }
+ #Magnifying_glass_wrap {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #ff385C;
+     flex-basis: 32px;
+     height: 32px;
+     flex-shrink: 0;
+     border-radius: 50%;
+ }
 
-    #Magnifying_glass{
-        width : 12px;
-    }
+ #Magnifying_glass {
+     width: 12px;
+ }
