@@ -1,91 +1,117 @@
- 
- button {
-     /* 버든 기본설정값 제거 */
-     background-color: transparent;
-     /*배경 투명하게*/
-     border: none;
- }
+    
+    button {
+        /* 버든 기본설정값 제거 */
+        background-color: transparent;
+        /*배경 투명하게*/
+        border: none;
+    }
 
- header {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     height : 80px;
-     padding : 0 80px;
-     border-bottom : 3px solid #f7f7f7;
- }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height : 80px;
+        padding : 0 80px;
+        border-bottom : 3px solid #f7f7f7;
+    }
 
- #logo {
-     height: 64px;
-     cursor: pointer;
- }
+    #logo {
+        height: 64px;
+        cursor: pointer;
+    }
 
- #little-search {
-     display: flex;
-     padding : 0 8px;
-     justify-content: center;
-     align-items: center;
-     width: fit-content;
-     height: 48px;
-     border: 1px solid #dddddd;
-     border-radius: 40px;
-     box-sizing : border-box;
-     box-shadow: 0 1px 2px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05);
-     min-width : 335px;
-     cursor : pointer;
- }
+    #little-search {
+        display: flex;
+        padding : 0 8px;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        height: 48px;
+        border: 1px solid #dddddd;
+        border-radius: 40px;
+        box-sizing : border-box;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05);
+        min-width : 335px;
+        cursor : pointer;
+    }
 
- #little-search * {
-    cursor : pointer;
- }
+    #little-search * {
+        cursor : pointer;
+    }
 
- .little-search-btn {
-    display : block;
-    padding : 0 16px;
-    font-size : 14px;
-    font-weight: 600;
-    color : #222222;
-    white-space : nowrap; /*텍스트 줄넘김 방지*/
-    width: fit-content;
- }
+    #little-search:hover{
+        box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+    }
 
- .little-search-btn:nth-child(5){
-    color : #717171;
- }
+    .little-search-btn {
+        display : block;
+        padding : 0 16px;
+        font-size : 14px;
+        font-weight: 600;
+        color : #222222;
+        white-space : nowrap; /*텍스트 줄넘김 방지*/
+        width: fit-content;
+    }
+
+    .little-search-btn:nth-child(5){
+        color : #717171;
+    }
 
 
- .divder {
-     flex-basis: 1px;
-     height: 24px;
-     background-color: #dddddd;
- }
+    .divder {
+        flex-basis: 1px;
+        height: 24px;
+        background-color: #dddddd;
+    }
 
- #Magnifying_glass_wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ff385C;  
-    flex-basis: 32px;
-    height: 32px;
-    flex-shrink: 0;
-    border-radius: 50%;
- }
+    #Magnifying_glass_wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ff385C;  
+        flex-basis: 32px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 50%;
+    }
 
- #Magnifying_glass {
-     width: 12px;
- }
+    #Magnifying_glass {
+        width: 12px;
+    }
 
- #do-airbnb{
-    font-size : 14px;
-    color : #222222;
-    padding : 16px;
-    border-radius: 22px;
-    font-weight : 600;
-    cursor : pointer;   
- }
+    #header-right-section{
+        display: flex;
+        gap : 8px;
+    }
 
- #do-airbnb:hover{
-    background-color: #f7f7f7f7;
-    border: 0;
-    cursor: pointer;
- }
+    #do-airbnb{
+        font-size : 14px;
+        color : #222222;
+        padding : 16px;
+        border-radius: 22px;
+        font-weight : 600;
+        cursor : pointer;   
+    }
+
+    #do-airbnb:hover{
+        background-color: #f7f7f7f7;
+        border: 0;
+        cursor: pointer;
+        
+    }
+
+    #profile-section{
+        display: flex;
+        align-items: center;
+        padding : 5px 5px 5px 12px;
+        box-sizing: border-box;
+        border: 1px solid #DDDDDD;
+        border-radius: 21px;
+        gap : 12px;
+        cursor : pointer;
+    }
+
+    #profile-section:hover{
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+    }
