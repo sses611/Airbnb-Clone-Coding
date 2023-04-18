@@ -1,173 +1,408 @@
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="reset.css">
-            <link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
 
-            <script type="text/javascript" src="./app.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 
-            <title>Clone AirBnB</title>
-        </head>
-        <body>
-            <header>
-                <img id="logo" src="./img/comp_0685990 (1).png" alt="logo"/>   
+    <script type="text/javascript" src="./app.js"></script>
 
-                <div id="little-search">
-                    <button class="little-search-btn">언제든지</button><span class="divder"></span>
-                    <button class="little-search-btn">언제든 일주일</button><span class="divder"></span>
-                    <button class="little-search-btn">게스트추가</button>
-                    <div id="Magnifying_glass_wrap">
-                        <img id="Magnifying_glass" src="./img/Magnifying_glass_icon.svg" alt="search">
-                    </div>
-                </div>
-                <div id="header-right-section">
-                    <div id="do-airbnb">
-                        당신의 공간을 에어비앤비 하세요
-                    </div>
-                    <div id="profile-section">
-                        <img width="16" src="./img/list.svg" alt="list-icon">
-                        <img width="30" src="./img/user-circle.svg" alt="user-icon">
-                    </div>
-                </div>
-            </header>
+    <title>Clone AirBnB</title>
+</head>
 
-            <div id="category-bar">
-                <button class="category-btn" id="active-category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
-                <button class="category-btn">
-                    <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
-                    <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
-                    <div>VIEW</div>
-                </button>
+<body>
+    <header>
+        <img id="logo" src="./img/comp_0685990 (1).png" alt="logo" />
+
+        <div id="little-search">
+            <button class="little-search-btn">언제든지</button><span class="divder"></span>
+            <button class="little-search-btn">언제든 일주일</button><span class="divder"></span>
+            <button class="little-search-btn">게스트추가</button>
+            <div id="Magnifying_glass_wrap">
+                <img id="Magnifying_glass" src="./img/Magnifying_glass_icon.svg" alt="search">
             </div>
-
-            <div id="grid">
-
+        </div>
+        <div id="header-right-section">
+            <div id="do-airbnb">
+                당신의 공간을 에어비앤비 하세요
             </div>
+            <div id="profile-section">
+                <img width="16" src="./img/list.svg" alt="list-icon">
+                <img width="30" src="./img/user-circle.svg" alt="user-icon">
+            </div>
+        </div>
+    </header>
 
-        </body>
+    <div id="category-bar">
+        <button class="category-btn" id="active-category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>바닷가</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+        <button class="category-btn">
+            <img class="inactive-img" src="./img/airplane.svg" alt="airplane icon">
+            <img class="active-img" src="./img/airplane_black.svg" alt="airplane icon">
+            <div>VIEW</div>
+        </button>
+    </div>
 
-        <script>
-            // document.querySelectorAll('.category-btn').forEach(button => {
-            //     button.addEventListener("click", event => {
-            //         console.log("clicked");
-            //     })
-            // })
-        </script>
-        </html>
+    <main>
+        <div class="place-items-wrapper">
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+            </div>
+            <div class="place-list-item">
+                <div class="place-image-wrapper">
+                    <img src="https://picsum.photos/1000/1000" alt="place-img">
+                    <img class="heart-icon-img" src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="description-section">
+                    <div class="description-title">필리핀</div>
+                    <div class="description-place">비치</div>
+                    <div class="description-date">5월 13일</div>
+                    <div class="description-money">₩214,677</div>
+                </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
