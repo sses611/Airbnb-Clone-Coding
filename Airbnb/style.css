@@ -115,10 +115,11 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
     }
 
+/*category*/
     #category-bar {
         display: flex;
         padding: 20px 40px;
-        overflow: auto;
+        overflow: auto; /*화면에서 넘어갔을 경우 */
         gap: 32px;
     }
 
@@ -133,29 +134,36 @@
         cursor: pointer;
     }
 
-    .category-btn:hover {
-        color: #000;
-        border-bottom: 2px solid #ddd;
-        padding: 4px 0;
+    .category-btn:hover{
+        color : #000;
+        border-bottom: 2px solid #000;
     }
 
-    .category-btn img {
-        width: 24px;
+    .category-btn img{
+        width: 28px
     }
 
-    .category-btn:hover .active-img { /*마우스를 올렸을 때 active img를 보여준다*/
+    .active-img{
+        display:none;
+    }
+    
+    .category-btn:hover .active-img{ /*마우스를 올렸을 때 active img를 보여준다*/
         display: inline-block; /*한줄에 줄 바꿈 없이 표현한다.*/
     }
 
-    .category-btn:hover .inactive-img { /*마우스를 올렸을 때 inactive img를 사라지게 한다.*/
-        display: none;
-    }
-
-    .active-img {
+    .category-btn:hover .inactive-img{ /*마우스를 올렸을 때 inactive img를 사라지게 한다.*/
         display: none;
     }
 
     #active-category-btn {
         color: #000;
         border-bottom: 2px solid #000;
+    }
+
+    .active-category-btn .active-img { /*마우스를 올렸을 때 active img를 보여준다*/
+        display: inline-block; /*한줄에 줄 바꿈 없이 표현한다.*/
+    }
+
+    .active-category-btn .inactive-img { /*마우스를 올렸을 때 inactive img를 사라지게 한다.*/
+        display: none;
     }
