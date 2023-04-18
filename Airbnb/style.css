@@ -180,7 +180,7 @@
             grid-template-columns:repeat(5, 291.398px);
             justify-items: center;
             align-items: center;
-            padding: 0 80px; /*좌우 상하*/
+            padding: 24px 80px; /*좌우 상하*/
             gap : 40px 24px;
         }
         
@@ -219,4 +219,8 @@
             font-weight : 600;
         }
 
+        .heart-icon-img:active{
+            transform : scale(0.9);
+            transition: transform 0.25s;
+        }
 
