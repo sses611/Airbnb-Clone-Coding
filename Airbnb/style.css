@@ -115,3 +115,45 @@
         cursor: pointer;
         box-shadow: 0 2px 4px rgba(0,0,0,0.18);
     }
+
+    #category-bar{
+        display: flex;
+        padding :20px 40px;
+        overflow: auto;
+        gap : 32px;
+    }
+
+    #category-bar::-webkit-scrollbar{
+        display: none;
+
+    }
+
+    .category-btn{
+        color : #717171;
+        font-size : 12px;
+        font-weight: 600;
+        cursor : pointer
+    }
+
+    .category-btn:hover{
+        color : #000;
+        border-bottom: 2px solid #ddd;
+        padding : 4px 0;
+    }
+
+    .category-btn img{
+        width: 24px;
+    }
+    
+    .category-btn:hover .active-img{
+        display : inline-block;
+    }
+    .category-btn:hover .inactive-img{
+        display : none;
+    }
+    
+    .active-img{
+        display: none;
+    }
+
+
