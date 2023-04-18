@@ -1,7 +1,9 @@
-// alert("hello")
+window.onload = function() {
+    document.querySelectorAll('.category-btn').forEach(button => {
+        button.addEventListener("click", event => {
+            document.querySelector('#active-category-btn').removeAttribute('id');
 
-document.querySelectorAll('.category-btn').forEach(button => {
-    button.addEventListener("click", event => {
-        console.log("clicked");
+            button.setAttribute('id', 'active-category-btn');
+        })
     })
-})
+}                                                                                                                   
