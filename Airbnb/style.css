@@ -212,10 +212,11 @@
             display: flex;
             flex-direction: column;
             color: rgb(34,34,34);
+            font-weight: 100;
             gap:10px
         }
 
-        .description-title {
+        .description-title, .description-money {
             font-weight : 600;
         }
 
