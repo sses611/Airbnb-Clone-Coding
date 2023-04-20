@@ -231,3 +231,12 @@
                 transition: transform 0.25s;
             }
 
+            #floating-map-icon{
+                position : fixed;
+                left : 50%; /*부모의 50%*/
+                color : #222222;
+                bottom: 125px;
+                transform: translateX(-50%); /*자신의 50%*/
+            }
+        
+
