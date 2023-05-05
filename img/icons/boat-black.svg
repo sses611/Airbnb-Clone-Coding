@@ -1,8 +1,24 @@
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_2" width="96" height="96">
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="96.000000pt" height="96.000000pt" viewBox="0 0 96.000000 96.000000"
+ preserveAspectRatio="xMidYMid meet">
 
-<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
-    <image  x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOtSURBVHhe7ZyLjdUwEEVfCZRACZRAB9ABdAAl0AF0AB1QAiVQAiVQAvhI+6Qouv4kmTj2ZI50JHbZ9Weec+3N280jCIJgXF4l/yb/DSzj+5pkrC75kVQTH01eBJe8TaoJjyhjdccMMfT0T9JlFM0SQ+gyimaKIXQXRaUYumKyahxLXUZRLoa+J3ujxrHWXRTlYogro/dqU+NQuoqikWJIjUHpLopGiSE1hpyuomiUGFJjKOkmit4n1QR5AXqixlDSTRSNHkHfxOeeuoii3Cb8LtkTNQZklbPa1f/h1FE0SvyAGgdCbp/CqaNohh/EnriMolHiB9Q48Im7KMrFz2gucRVFs9yOXuMminLxM5prXETRLPGDiumjaJb4wRxTR9Es8YM53J2KrkYVEUu4OhVdjSoi1nB/r6gXqoBYI6LICFU8bCGiyABVPGwlouggqnDYSkTRQVTRcAsRRQdQRcOtRBTtRBUMtxJRtBNVLNxDRNEOVLFwLxFFG1GFwr1EFG1EFQmPEFG0AVUkPEpEUSOqQHiUiKJGVHHQgoiiBlRx0IqIogqqMGhFRFEFVRS0JKKogCoKWhNRlEEVBK2JKMqgioFnEFEkUMXAs4goWqEKgWcRUbRCFQHPJKJogSoCnk1E0QuqAHg2EUUvqMljDyKKEmry2IvbR5GaOPbi9lGkJj2S7qNITXo0vyTdoiY8mlf8AXs31IRHM16Ai+Wk5BY14VFk5bvOf1ATx6ATqvgYdEIVH4NOqOJj0AlVfAw6oYqPblGTDeuaoRoP65qhGg/rmqEaD+uaMdMja0bSjNK7P6GWmpnxM6k6+Zi8O7lHuv1KmpF7E9r1LddGutSGla46Mb3MJiUXz6YPtOUNZtUJ3u73Ihe8Saqa4OukKWSa6uiKZ0ePQu6Jkr+T5nxOqs7Q/NWeAOasaoEfkuYQQ7mfB0x3/EkoPU/1tAXJe52qQ+QKuQufkqoGeGokl64CPs+m5B1Wd+nOwOlxXLoKGNhycPybeOJMbHFaog3aYpO7qp/lx2u7/TYEA1MDqMmZec8Gxc8hW26H9OpnKd/XDVaIGkSrrNaWS5WvyR1/W+zVD1pceU3Q0d5VsrS2SrnH4qmfQ5Bt7O6l/NsrA+dmH31468cM1VFY1wzV+Fo2Zs7Hy8zlWHpkY1PO1I8ZqvGlLZcbX6O+d4uz9WOGahxZCVt2/70b+Kz9mLFumCPbkR2fy7jl2Dd7P2ZwuZGHHNks//iMtlhFtE0f3voJxubx+A9Ni/NsvZghTQAAAABJRU5ErkJggg==" preserveAspectRatio="none" width="72" height="72"/>
+<g transform="translate(0.000000,96.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M80 927 c0 -2 9 -29 19 -60 20 -56 20 -58 0 -114 -10 -31 -19 -58
+-19 -60 0 -1 83 -3 185 -3 l185 0 0 -210 0 -210 -181 0 -182 0 5 -49 c3 -27
+14 -67 25 -90 22 -43 20 -51 -9 -51 -14 0 -18 -8 -18 -34 0 -34 1 -34 31 -26
+17 5 42 16 55 25 32 20 56 19 99 -6 46 -28 104 -28 150 0 45 26 65 26 110 0
+46 -28 104 -28 150 0 43 25 67 26 99 6 13 -9 38 -20 55 -25 30 -8 31 -8 31 26
+0 26 -4 34 -18 34 -29 0 -31 8 -9 51 11 23 22 63 25 90 l5 49 -182 0 -181 0 0
+30 0 30 177 2 c157 3 178 5 181 20 2 9 -81 143 -184 297 l-187 281 -209 0
+c-114 0 -208 -2 -208 -3z m370 -117 l0 -60 -144 0 -145 0 10 30 c8 21 8 39 0
+60 l-10 30 145 0 144 0 0 -60z m197 -215 c66 -99 123 -186 127 -192 6 -10 -23
+-13 -128 -13 l-136 0 0 202 c0 116 4 198 9 193 5 -6 62 -91 128 -190z m153
+-411 c-21 -55 -30 -64 -63 -64 -18 0 -47 -9 -65 -20 -41 -25 -83 -25 -124 0
+-42 25 -94 25 -136 0 -41 -25 -83 -25 -124 0 -18 11 -47 20 -65 20 -33 0 -42
+9 -63 64 l-10 26 330 0 330 0 -10 -26z"/>
 </g>
 </svg>
